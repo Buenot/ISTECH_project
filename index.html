@@ -1,0 +1,198 @@
+<!DOCTYPE html><!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>ISTECH</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+        <div class="hamburguer">
+          <div class="line" id="line1"></div>
+          <div class="line" id="line2"></div>
+          <div class="line" id="line3"></div>
+          <span>Fechar</span>
+        </div>  
+
+        <header id="home">
+            <div class="img-wrapper">
+                <img src="imagens/bg.jpg" alt="">
+            </div>
+            <div class="banner">
+                <h1>ISTECH</h1>
+                <p>Prestadora de Serviços de TI</p>
+                <a href="#servicos" button>Saiba mais</button>
+
+            </div>
+        </header>
+
+        <aside class="sidebar">
+          <nav>
+            <ul class="menu">
+              <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+              <li class="menu-item"><a href="#servicos" class="menu-link">Serviços</a></li>
+             <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+              <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamento</a></li>
+            </ul>
+          </nav>
+          <div class="social-media">
+            <a href="https://www.instagram.com/taina__bueno/"target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/tain%C3%A1-bueno-574424204/"target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Buenot"target="_blank" rel="noopener noreferrer"><i class="fab fa-github-alt"></i></a>
+          </div>
+        </aside>
+
+        <section class="sessao-servicos" id="servicos">
+          <div class="sessao-header">
+            <h1>Serviços</h1>
+          </div>
+          <div class="conhecimentos">
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fa fa-lock"></i>
+                <h3>Site Estático</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>Páginas pré-renderizadas, simples, carregamento rápido, segurança aprimorada.</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fa fa-window-restore"></i>
+                <h3>Site com 2 páginas</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>Informações concisas, navegação simples em duas plataformas conscisas.</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fa fa-object-group"></i>
+                <h3>Site com + de 2 páginas</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>Conteúdo diversificado, fácil navegação, variedade de conteúdo, experiência interativa, ampla gama de informações e navegação intuitiva.</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fa fa-paste"></i>
+                <h3>Site + banco de dados</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>Armazenamento e acesso de informações dinâmicas,conteúdo atualizado em tempo real e interatividade personalizada.</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fa fa-database"></i>
+                <h3>Plano acessíveis</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>inovação acessível, suporte confiável com um preço que cabe no seu orçamento. </p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fa fa-cogs"></i>
+                <h3>Manutenção Inclusa</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>A manutenção em todos os serviços é fornecido no contrato.</p>
+              </div>
+            </div>
+            <div class="conhecimentos-img-wrapper">
+              <img src="imagens/conhecimentos.png" alt="imagem conhecimento">
+            </div>
+          </div>
+        <section class="sessao-contato" id="contato">
+          <div class="contato-wrapper">
+            <div class="contato-left"></div>
+            <div class="contato-right">
+              <h1>Contato</h1>
+              <form>
+                <div class="input-group">
+                  <input type="text" class="field" id="nome">
+                  <label for="nome" class="field-label">Nome</label>
+                </div>
+                <div class="input-group">
+                  <input type="text" class="field" id="email">
+                  <label for="email" class="field-label">E-mail</label>
+                </div>
+                <div class="input-group">
+                  <textarea class="field" id="mensagem"></textarea>
+                  <label for="mensagem" class="field-label">Mensagem</label>
+                </div>
+                <button type="submit" class="btn btn-submit" >Enviar</button>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <!-- ORCAMENTO-->
+        <section class="sessao-orcamento" id="orcamento">
+          <img src="imagens/bgorcamento.jpg" alt="">
+          <div class="orcamento-wrapper">
+            <h1>Faça um orçamento</h1>
+            <form>
+              <!-- <label for="qtde">Qtde de Páginas</label> 
+              <input type="number" min="1" name="qtde" id="qtde">
+              <label for="js">Preciso de um script JS</label>
+              <input type="checkbox" name="js" id="js">-->
+              <label>Serviço</label>
+              <div class="group-layout">
+                <div>
+                  <input type="radio" name="servico" id="servico1-sim">
+                  <label for="servico1-sim">Site estático</label>
+                </div>
+                <div>
+                  <input type="radio" name="servico" id="servico2-sim">
+                  <label for="servico2-sim">Site com 2 páginas</label>
+                </div>
+                <div>
+                  <input type="radio" name="servico" id="servico3-sim">
+                  <label for="servico3-sim">Site com mais de 2 páginas</label>
+                </div>
+                <div>
+                  <input type="radio" name="servico" id="servico4-sim">
+                  <label for="servico4-sim">Site com mais de duas páginas e banco de dados</label>
+                </div>
+              </div>
+              <label for="prazo">Prazo</label>
+              <input type="range" name="prazo" id="prazo" min="1" max="10">
+              <label id="preco"><p>Estimativa de valor :</p><c>R$ 0,00</c></label>
+              <button class="btn btn-orcamento" type="submit">Enviar</button>
+            </form>
+          </div>
+        </section>
+
+        <footer>
+          <div class="footer-content">
+            <p>
+              Copyright &copy; 2022, ETECIA DS - Todos os diretos reservados
+            </p>
+            <div class="social-list">
+              <ul>
+                <li><a href="https://www.instagram.com/taina__bueno/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram""></i></a></li>
+                <li><a href="https://www.linkedin.com/in/tain%C3%A1-bueno-574424204/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/Buenot" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-alt"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+        <a href="#home" id="link-topo">
+          <i class="fas fa-arrow-up"></i>
+        </a>
+    </div>
+   </body>
+
+   <script src="script.js"></script>
+</html>
+ 
